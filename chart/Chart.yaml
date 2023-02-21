@@ -1,0 +1,6 @@
+apiVersion: v2
+name: sample-app1
+description: A sample app that deploys https://hub.docker.com/r/mendhak/http-https-echo image
+type: application
+version: 0.5.0
+appVersion: 1.0.0
