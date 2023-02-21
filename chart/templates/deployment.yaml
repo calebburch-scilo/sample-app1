@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: http-echo
-        image: mendhak/http-https-echo
+        image: mendhak/http-https-echo:{{ .Values.imageTag }}
         ports:
         - containerPort: 80
         - containerPort: 443
